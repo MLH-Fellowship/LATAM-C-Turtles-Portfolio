@@ -2,6 +2,10 @@ img {
   width: 300px;
 }
 
+img.medium{
+  width: 400px;
+}
+
 .container {
   max-width: 60%;
 }
