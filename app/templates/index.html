@@ -1,11 +1,70 @@
-<!DOCTYPE html>
-<html lang ="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-</head>
-<body>
-    Qlq amigos!
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block style %}
+<link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+{% endblock %}
+
+{% block head %}
+<title>Team 1 Portfolio</title>
+{% endblock %}
+
+{% block body %}
+<div class="rectangle1">
+    <div class="top-left">
+        <div class="mlh-logo-layer">
+            <div class="logo">
+                <a href="https://fellowship.mlh.io/">
+                    <img src="/static/img/MLH_Logo.svg" alt="MLH Fellows">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="top-left-text">
+        <div class="text1">Pod 3.3.0 aka the C Turtles</div>
+    </div>
+    <div class="top-right-text">
+        <div class="text2">About</div>
+    </div>
+    <div class="title-text">
+        <div class="text3">Team 1 Portfolio</div>
+    </div>
+    <div class="sub-text">
+        <div class="text4">Powered by Flask</div>
+    </div>
+    <div class="turtle-layer">
+        <div class="turtle1">
+            <img src="/static/img/Turtle1.png" alt="Turtle 1">
+        </div>
+        <div class="turtle2">
+            <img src="/static/img/Turtle2.png" alt="Turtle 2">
+        </div>
+        <div class="turtle3">
+            <img src="/static/img/Turtle3.png" alt="Turtle 3">
+        </div>
+    </div>
+    <div class="team-text">
+        <div class="text5">Meet the Turtles Team</div>
+    </div>
+    <div class="strike-text">
+        <div class="text6">Turtles</div>
+    </div>
+    <div class="carlos">
+        <a href="https://www.linkedin.com/in/carlosricoveri/">
+            <img src="/static/img/Carlos.png" alt="Carlos">
+        </a>
+    </div>
+    <div class="jorge">
+        <img src="/static/img/Jorge.png" alt="Jorge">
+    </div>
+    <div class="saul">
+        <img src="/static/img/Saul.png" alt="Saul">
+    </div>
+    <div class="team">
+        <img src="/static/img/Team.png" alt="C Turtles">
+    </div>
+</div>
+
+{% endblock %} 

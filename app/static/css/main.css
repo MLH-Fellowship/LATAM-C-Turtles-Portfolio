@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #171955;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 1460px;
+    height: 524px;
+    left: -20px;
+    top: -20px;
+
+    background: linear-gradient(180deg, rgba(0,224,255,0.54) 0%, 
+                rgba(0, 224, 255, 0) 100%);
+}
+
+/* Layer that will contain the MLH Fellows logo. */
+.top-left {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 2.78%;
+    right: 77.36%;
+    top: 4.49%;
+    bottom: 88.96%;
+}
+
+/* MLH Logo used from Flask Blog template. */
+.mlh-logo-layer {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.logo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/* The layer containing the text underneath the logo. */
+.top-left-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 224px;
+    height: 49px;
+    left: 67px;
+    top: 80px;
+}
+
+/* Pod 3.3.0 aka the C Turtles */
+.text1 {
+    position: static;
+    width: 204px;
+    height: 29px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Rock Salt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(243, 255, 233, 0.4899) 75%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 29px;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+/* Layer that contains the About section. */
+.top-right-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 95px;
+    height: 70px;
+    left: 1199px;
+    top: 42px;
+}
+
+/* About */
+.text2 {
+    position: static;
+    width: 75px;
+    height: 50px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Rancho;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 30%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 50px;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 478px;
+    height: 139px;
+    left: 481px;
+    top: 103px;
+}
+
+/* Team 1 Portfolio */
+.text3 {
+    position: static;
+    width: 458px;
+    height: 119px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 119px;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.sub-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: 647px;
+    top: 199px;
+}
+
+/* Powered by Flask */
+.text4 {
+    position: static;
+    width: 129px;
+    height: 29px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Rock Salt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 50%, rgba(243,255,233,0.4899) 60%,
+      rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 29px;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.turtle-layer {
+    position: absolute;
+    width: 353.96px;
+    height: 497.85px;
+    left: 40px;
+    top: 200px;
+}
+
+/* Turtle Shadow Figures. */
+.turtle1 {
+    position: absolute;
+    width: 161.09px;
+    height: 113.5px;
+    left: 128px;
+    top: 20px;
+}
+
+.turtle2 {
+    position: absolute;
+    width: 116.45px;
+    height: 84.91px;
+    left: 40px;
+    top: 180px;
+}
+
+.turtle3 {
+    position: absolute;
+    width: 284.66px;
+    height: 198.3px;
+    left: 71px;
+    top: 200px;
+}
+
+.team-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 305px;
+    height: 56px;
+    left: 568px;
+    top: 469px;
+
+}
+
+/* Meet the Turtle Team */
+.text5 {
+    position: static;
+    width: 285px;
+    height: 36px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 90%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 36px;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+ .strike-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    width: 103px;
+    height: 56px;
+    left: 690px;
+    top: 469px;
+    text-decoration: line-through;
+    text-decoration-thickness: auto;
+    text-decoration-color: black
+}
+
+/* Turtle with a strikethrough */
+.text6 {
+    position: static;
+    width: 83px;
+    height: 36px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 90%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: line-through;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;    
+}
+
+/* Carlos profile link. */
+.carlos {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 883px;
+    top: 524px;
+}
+
+/* Jorge profile link. */
+.jorge {
+    position: absolute;
+    width: 145px;
+    height: 140px;
+    left: 648px;
+    top: 524px; 
+}
+
+/* Saul profile link. */
+.saul {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 418px;
+    top: 524px;   
+}
+
+/* Display the rest of the podmates. */
+.team {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1040px;
+    height: 78px;
+    left: 201px;
+    top: 731px;
+}
