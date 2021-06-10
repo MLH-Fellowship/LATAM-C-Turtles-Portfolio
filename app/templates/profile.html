@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}Profile</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link lang='sass' href="./static/css/profile.css" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body >
+        <div class="container header-container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <img src="../static/img/profile.png" class="profile-photo" alt="Profile photo">
+                </div>
+                <div class="col-1"></div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="row">
+                            <span class="greetings-title">Hey there,</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 breaker">
+                            </div>
+                        </div>
+                        <h1 class="name-title">I'm Saul</h1>
+                        <h1 class="name-subtitle">whoami</h1>
+                        <p class="description">
+                            I'm a Computer Science student and MLH Production Engineering Fellow living
+                            in Mexico City. I like frontend development with React and backend development with Mongo and flask. 
+                            I have a passion for technology and music. In my free time a like to play piano, watch movies and go to the park with my dogs.
+                            Feel free to take a look around and contact me if you'd like to have a chat. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section class="curriculum">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h2 class="subtitle-portfolio">.education()</h2>
+                            <div class="row">
+                                <div class="col-1 breaker">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>School 1</h3>
+                                    <h3 class="omitted">B.S. Computer Science</h3>
+                                    <h4 class="omitted">// Ago 2017-Jun 2022</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h2 class="subtitle-portfolio">.experience()</h2>
+                            <div class="row">
+                                <div class="col-1 breaker">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>experience 1</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>experience 1</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>experience 1</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h2 class="subtitle-portfolio">.projects()</h2>
+                            <div class="row">
+                                <div class="col-1 breaker">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col my-5">
+                                    <div class="card" style="width: 16rem;">
+                                        <img src="../static/img/react.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col my-5">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../static/img/react.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col my-5">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../static/img/react.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <h2 class="subtitle-portfolio">.achievements()</h2>
+                            <div class="row">
+                                <div class="col-1 breaker">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>achievements 1</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>achievements 2</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>achievements 2</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h2 class="subtitle-portfolio">.extracurricular( )</h2>
+                            <div class="row">
+                                <div class="col-1 breaker">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <h3>extracurricular</h3>
+                                    <h4 class="omitted">// Ago-Dec 2020</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ex ipsa harum nostrum magnam libero dolor? Autem architecto amet, est repellat iste iusto esse quaerat atque, ab neque quasi fuga!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            ScrollReveal().reveal('.profile-photo', { delay: 400 });
+            ScrollReveal().reveal('.greetings-title', { delay: 1000 });
+            ScrollReveal().reveal('.name-title', { delay: 1800 });
+            ScrollReveal().reveal('.breaker', { delay: 1000 });
+            ScrollReveal().reveal('.name-subtitle', { delay: 2800 });
+            ScrollReveal().reveal('.description', { delay: 2800 });
+            ScrollReveal().reveal('.curriculum', { delay: 3800 });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: #f5f5f9;
+    background-size: cover;
+    width: auto; 
+    overflow-x: hidden;
+    font-family: "Roboto", serif;
+    margin: 0px;
+}
+.header-container {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 120px;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: '64px';
+}
+
+.profile-photo {
+    border-radius: 50%;
+    height: 360px;
+}
+
+.greetings-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #313235;
+    font-weight: 100;
+}
+.omitted {
+    color: #3B3C40;
+    font-family: 'Source Code Pro', monospace;
+}
+.name-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 140px;
+    color: #313235;
+}
+.name-subtitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    color: #313235;
+}
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.subtitle-portfolio {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    color: #313235;
+}
+.breaker {
+    background-color: #313235;
+    height: 8px;
+    width: 5%;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.curriculum {
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
