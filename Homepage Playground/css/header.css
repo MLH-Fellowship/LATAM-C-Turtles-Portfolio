@@ -116,6 +116,7 @@ header {
   top: -40px;
 }
 
+/*Profile cards*/
 .profile-circle {
   width: 15em;
   height: 15em;
@@ -135,4 +136,26 @@ header {
 .profile-circle:hover {
   transform: translateY(-0.5em);
   box-shadow: 0.1em 0.6em 0.6em rgb(0, 0, 0, 0.4);
+}
+
+.profile-circle-small {
+  width: 8em;
+  height: 8em;
+  border-radius: 100%;
+  transition: ease-in 0.2s all;
+  box-shadow: 0em 0.1em 0.2em rgb(0, 0, 0, 0.1);
+}
+
+.profile-circle-small img {
+  width: 100%;
+  border-radius: 100%;
+}
+.profile-circle-small p {
+  font-size: 1em;
+  padding-top: 0.3em;
+}
+
+.profile-circle-small:hover {
+  transform: translateY(-0.2em);
+  box-shadow: 0.1em 0.3em 0.3em rgb(0, 0, 0, 0.2);
 }
