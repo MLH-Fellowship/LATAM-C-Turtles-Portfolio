@@ -8,6 +8,70 @@ body {
   background-color: #171955;
 }
 
+.wave {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(/static/img/wave.png);
+    background-size: 1000px 100px;
+}
+
+.wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    top: -60px;
+}
+@keyframes animate 
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+
+.wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    top: -50px;
+}
+@keyframes animate2 
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: -1000px;
+    }
+}
+
+.wave.wave3 {
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    top: -45px;
+}
+
+.wave.wave4 {
+    animation: animate2 15s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    top: -40px;
+}
+
 .rectangle1 {
     position: absolute;
     width: 1460px;
@@ -19,44 +83,24 @@ body {
                 rgba(0, 224, 255, 0) 100%);
 }
 
-/* Layer that will contain the MLH Fellows logo. */
-.top-left {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    padding: 0px;
-
+.github-logo {
     position: absolute;
-    left: 2.78%;
-    right: 77.36%;
-    top: 4.49%;
-    bottom: 88.96%;
+    width: 83px;
+    height: 75px;
+    left: 144px;
+    right: 1213px;
+    top: 56px;
+    bottom: 893px;
+
+    transition: transform .2s;
 }
 
-/* MLH Logo used from Flask Blog template. */
-.mlh-logo-layer {
-    position: static;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
+.github-logo:hover {
+    transform: scale(1.2);
 }
 
-.logo {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-
-/* The layer containing the text underneath the logo. */
-.top-left-text {
+/* The layer containing the text above the podmates. */
+.podmate-text {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -65,8 +109,10 @@ body {
     position: absolute;
     width: 224px;
     height: 49px;
-    left: 67px;
-    top: 80px;
+    left: 608px;
+    right: 608px;
+    top: 555px;
+    bottom: 420px;
 }
 
 /* Pod 3.3.0 aka the C Turtles */
@@ -107,8 +153,10 @@ body {
     position: absolute;
     width: 95px;
     height: 70px;
-    left: 1199px;
-    top: 42px;
+    left: 1201px;
+    right: 114px;
+    top: 56px;
+    bottom: 898px;
 }
 
 /* About */
@@ -148,8 +196,11 @@ body {
     position: absolute;
     width: 478px;
     height: 139px;
-    left: 481px;
-    top: 103px;
+    left: 478px;
+    right: 484px;
+    top: 19px;
+    bottom: 366px;
+    
 }
 
 /* Team 1 Portfolio */
@@ -189,8 +240,10 @@ body {
     position: absolute;
     width: 149px;
     height: 49px;
-    left: 647px;
-    top: 199px;
+    left: 644px;
+    top: 115px;
+    right: 647px;
+    bottom: 860px;
 }
 
 /* Powered by Flask */
@@ -226,34 +279,22 @@ body {
     position: absolute;
     width: 353.96px;
     height: 497.85px;
-    left: 40px;
-    top: 200px;
+    left: 122px;
+    right: 1074.12px;
+    top: 219px;
+    bottom: 517px;
 }
 
-/* Turtle Shadow Figures. */
-.turtle1 {
+.turtle-layer2 {
     position: absolute;
-    width: 161.09px;
-    height: 113.5px;
-    left: 128px;
-    top: 20px;
+    width: 353.96px;
+    height: 497.85px;
+    left: 1067px;
+    right: 129.12px;
+    top: 219px;
+    bottom: 517px;
 }
 
-.turtle2 {
-    position: absolute;
-    width: 116.45px;
-    height: 84.91px;
-    left: 40px;
-    top: 180px;
-}
-
-.turtle3 {
-    position: absolute;
-    width: 284.66px;
-    height: 198.3px;
-    left: 71px;
-    top: 200px;
-}
 
 .team-text {
     display: flex;
@@ -264,92 +305,70 @@ body {
     position: absolute;
     width: 305px;
     height: 56px;
-    left: 568px;
-    top: 469px;
+    left: 564px;
+    right: 571px;
+    top: 220px;
+    bottom: 748px;
 
 }
 
-/* Meet the Turtle Team */
-.text5 {
-    position: static;
-    width: 285px;
-    height: 36px;
-    left: 10px;
-    top: 10px;
-
-    font-family: Reenie Beanie;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
-    rgba(239, 255, 226, 0.3125) 90%, rgba(231,255,212,0) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    line-height: 36px;
-    text-align: center;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+.carlos-wrap {
+    width: 140px;
+    height: 140px;
 }
-
- .strike-text {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-
-    position: absolute;
-    width: 103px;
-    height: 56px;
-    left: 690px;
-    top: 469px;
-    text-decoration: line-through;
-    text-decoration-thickness: auto;
-    text-decoration-color: black
-}
-
-/* Turtle with a strikethrough */
-.text6 {
-    position: static;
-    width: 83px;
-    height: 36px;
-    left: 10px;
-    top: 10px;
-
-    font-family: Reenie Beanie;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
-    rgba(239, 255, 226, 0.3125) 90%, rgba(231,255,212,0) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    line-height: 36px;
-    text-align: center;
-    text-decoration: line-through;
-
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;    
-}
-
 /* Carlos profile link. */
 .carlos {
     position: absolute;
     width: 140px;
     height: 140px;
-    left: 883px;
-    top: 524px;
+    left: 879px;
+    right: 421px;
+    top: 293px;
+    bottom: 590px;
+
+    transition: transform .2s;
+}
+
+.carlos:hover {
+    transform: scale(1.2);
+}
+
+.carlos-text {
+    position: absolute;
+    width: 106px;
+    height: 33px;
+    left: 895px;
+    right: 439px;
+    bottom: 558px;
+    top: 433px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 36px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.carlos-wrap:hover .carlos-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.jorge-wrap {
+    width: 145px;
+    height: 140px;
 }
 
 /* Jorge profile link. */
@@ -357,8 +376,54 @@ body {
     position: absolute;
     width: 145px;
     height: 140px;
-    left: 648px;
-    top: 524px; 
+    left: 644px;
+    right: 651px;
+    top: 293px; 
+    bottom: 590px;
+
+    transition: transform 0.2s;
+}
+
+.jorge:hover {
+    transform: scale(1.2);
+}
+
+.jorge-text {
+    position: absolute;
+    width: 106px;
+    height: 44px;
+    left: 663px;
+    right: 671px;
+    top: 433px;
+    bottom: 547px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 80%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 36px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.jorge-wrap:hover .jorge-text{
+    visibility: visible;
+    opacity: 1;    
+}
+
+.saul-wrap {
+    width: 140px;
+    height: 140px;
 }
 
 /* Saul profile link. */
@@ -366,20 +431,642 @@ body {
     position: absolute;
     width: 140px;
     height: 140px;
-    left: 418px;
-    top: 524px;   
+    left: 414px;
+    right: 886px;
+    top: 293px;
+    bottom: 591px;  
+    
+    transition: transform 0.2s;
 }
 
-/* Display the rest of the podmates. */
-.team {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+.saul:hover {
+    transform: scale(1.2);
+}
 
+
+.saul-text {
     position: absolute;
-    width: 1040px;
+    width: 106px;
+    height: 33px;
+    left: 431px;
+    right: 903px;
+    bottom: 558px;
+    top: 433px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 36px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.saul-wrap:hover .saul-text{
+    visibility: visible;
+    opacity: 1;    
+}
+
+.jc-wrap {
+    width: 70px;
     height: 78px;
-    left: 201px;
-    top: 731px;
+}
+
+.jc {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 1169px;
+    right: 201px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.jc:hover {
+    transform: scale(1.05);
+}
+
+.jc-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 1169px;
+    right: 196px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.jc-wrap:hover .jc-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.gibson-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.gibson {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 1072px;
+    right: 298px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.gibson:hover {
+    transform: scale(1.05);
+}
+
+.gibson-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 1072px;
+    right: 293px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.gibson-wrap:hover .gibson-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.yenyu-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.yenyu {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 975px;
+    right: 395px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.yenyu:hover {
+    transform: scale(1.05);
+}
+
+.yenyu-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 975px;
+    right: 395px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.yenyu-wrap:hover .yenyu-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.athena-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.athena {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 878px;
+    right: 492px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.athena:hover {
+    transform: scale(1.05);
+}
+
+.athena-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 875px;
+    right: 490px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.athena-wrap:hover .athena-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.chris-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.chris {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 781px;
+    right: 589px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.chris:hover {
+    transform: scale(1.05);
+}
+
+.chris-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 781px;
+    right: 589px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.chris-wrap:hover .chris-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.yashika-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.yashika {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 684px;
+    right: 686px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.yashika:hover {
+    transform: scale(1.05);
+}
+
+.yashika-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 684px;
+    right: 686px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.yashika-wrap:hover .yashika-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.jioh-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.jioh {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 587px;
+    right: 783px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.jioh:hover {
+    transform: scale(1.05);
+}
+
+.jioh-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 587px;
+    right: 783px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.jioh-wrap:hover .jioh-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.nhi-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.nhi {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 490px;
+    right: 880px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.nhi:hover {
+    transform: scale(1.05);
+}
+
+.nhi-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 490px;
+    right: 880px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.nhi-wrap:hover .nhi-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.shivi-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.shivi {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 393px;
+    right: 977px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.shivi:hover {
+    transform: scale(1.05);
+}
+
+.shivi-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 393px;
+    right: 977px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.shivi-wrap:hover .shivi-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.patrick-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.patrick {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 296px;
+    right: 1074px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.patrick:hover {
+    transform: scale(1.05);
+}
+
+.patrick-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 296px;
+    right: 1074px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.patrick-wrap:hover .patrick-text {
+    visibility: visible;
+    opacity: 1;       
+}
+
+.valerie-wrap {
+    width: 70px;
+    height: 78px;
+}
+
+.valerie {
+    position: absolute;
+    width: 70px;
+    height: 78px;
+    left: 199px;
+    right: 1171px;
+    top: 604px;
+    bottom: 342px;
+
+    transition: transform 0.2s;
+}
+
+.valerie:hover {
+    transform: scale(1.05);
+}
+
+.valerie-text {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 199px;
+    right: 1171px;
+    top: 682px;
+    bottom: 319px;
+
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, 
+    rgba(239, 255, 226, 0.3125) 100%, rgba(231,255,212,0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    line-height: 25px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.valerie-wrap:hover .valerie-text {
+    visibility: visible;
+    opacity: 1;       
 }
