@@ -153,11 +153,17 @@ python3 app.py
 
 ## Acknowledgements
 [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+
 [Img Shields](https://shields.io)
+
 [Pip3 Install](https://www.educative.io/edpresso/installing-pip3-in-ubuntu)
+
 [Readme Template](https://github.com/othneildrew/Best-README-Template)
+
 [Wave Animations](https://www.youtube.com/watch?v=MMNEEdGa5eE)
+
 [Flask Blog Template MLH Logo](https://github.com/MLH-Fellowship/flask-blog)
+
 [Turtle clipart](https://www.jing.fm/iclipt/oomTim/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
