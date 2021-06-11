@@ -1,0 +1,29 @@
+body {
+  font-size: 62.5%;
+}
+
+img {
+  width: 4.5em;
+}
+
+h1 {
+  font-size: 8.6em;
+}
+
+.gradient-text {
+  text-decoration: none;
+  font-family: "Rancho", cursive;
+  background: #333333;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(239, 255, 226, 0.3125) 100%,
+    rgba(231, 255, 212, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  font-size: 3.5em;
+}
