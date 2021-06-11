@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('landing_page.html')
 
 # code by kOssi (https://stackoverflow.com/questions/21133976/flask-load-local-json)
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
