@@ -111,7 +111,7 @@
     </main>
 
 
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white footer">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Social media -->
@@ -167,7 +167,7 @@
             distance: '250%',
             origin: 'left',
             opacity: '75%',
-            //beforeReveal: startCommitCounter
+            //afterReveal: startCommitCounter
         }
         var slideRight = {
             distance: '250%',
@@ -175,6 +175,9 @@
             opacity: '75%',
             //beforeReveal: startCommitCounter
         }
+
+
+
         ScrollReveal().reveal('.imageLeftSlideUp', slideLeft);
         ScrollReveal().reveal('.imageRightSlideUp', slideRight);
 
@@ -186,6 +189,8 @@
 
         ScrollReveal().reveal('.main-title', { delay: 500 });
         ScrollReveal().reveal('.main-subtitle', { delay: 1000 });
+
+        ScrollReveal().reveal('.footer', { delay: 1000 });
     </script>
 
 </body>
