@@ -18,6 +18,7 @@
         rel="stylesheet">
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Homepage</title>
 
 </head>
@@ -34,7 +35,7 @@
     <main class="container" id="counter">
         <div class="row py-5 first">
             <div class="col-md-6 text-center">
-                <img src="./static/img/rocket.png" class="image" alt="Airport">
+                <img src="./static/img/rocket.png" class="imageLeftSlideUp" alt="Airport">
             </div>
             <div class="col-md-6 text-center my-auto">
                 <div class="title">
@@ -52,7 +53,7 @@
         <hr class="divider" />
         <div class="row flex-row-reverse py-5 first">
             <div class="col-md-6 text-center">
-                <img src="./static/img/office.png" class="image medium" alt="Pull Request">
+                <img src="./static/img/office.png" class="image medium imageRightSlideUp" alt="Pull Request">
             </div>
             <div class="col-md-6 text-center my-auto">
                 <div class="title">
@@ -70,7 +71,7 @@
         <hr class="divider" />
         <div class="row py-5 first">
             <div class="col-md-6 text-center">
-                <img src="./static/img/world.png" class="image" alt="World">
+                <img src="./static/img/world.png" class="imageLeftSlideUp" alt="World">
             </div>
             <div class="col-md-6 text-center my-auto">
                 <div class="title">
@@ -89,7 +90,7 @@
         <hr class="divider" />
         <div class="row flex-row-reverse py-5 first">
             <div class="col-md-6 text-center">
-                <img src="./static/img/airport.png" class="image medium" alt="Codelines">
+                <img src="./static/img/airport.png" class="image medium imageRightSlideUp" alt="Codelines">
             </div>
             <div class="col-md-6 text-center my-auto">
                 <div class="title">
@@ -104,30 +105,51 @@
                 -->
             </div>
         </div>
-        <hr class="divider" />
+
 
 
     </main>
 
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row text-center py-5">
-                <div class="col-md-12 font-weight-light">
-                    <h4>Contributors</h4>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
 
-                    <div class="creditos">
-                        <a href="https://github.com/S4ND1X">Jorge Sanchez</a>
-                    </div>
-                    <div class="creditos">
-                        <a href="https://github.com/S4ND1X">Carlos Ricoveri</a>
-                    </div>
-                    <div class="creditos">
-                        <a href="https://github.com/S4ND1X">Saul Mdo</a>
-                    </div>
-                </div>
-            </div>
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
         </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://github.com/MLH-Fellowship">MLH Fellowship</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
 
@@ -138,7 +160,25 @@
     <script src="./static/script/index.js"></script>
 
     <script>
-        ScrollReveal().reveal('.image', { delay: 400 });
+
+
+
+        var slideLeft = {
+            distance: '250%',
+            origin: 'left',
+            opacity: '75%',
+            //beforeReveal: startCommitCounter
+        }
+        var slideRight = {
+            distance: '250%',
+            origin: 'right',
+            opacity: '75%',
+            //beforeReveal: startCommitCounter
+        }
+        ScrollReveal().reveal('.imageLeftSlideUp', slideLeft);
+        ScrollReveal().reveal('.imageRightSlideUp', slideRight);
+
+
         ScrollReveal().reveal('.title', { delay: 600 });
         ScrollReveal().reveal('.subtitle', { delay: 800 });
         ScrollReveal().reveal('.divider', { delay: 1000 });
