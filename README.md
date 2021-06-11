@@ -168,10 +168,10 @@ python3 app.py
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/blob/013-Update-Readme/images/Contributors.svg
+[contributors-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/Contributors.svg
 [contributors-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/issues.svg
 [issues-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues
-[issues2-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/blob/013-Update-Readme/images/issues2.svg
+[issues2-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/issues2.svg
 [issues2-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues
 [product-screenshot]: images/figma-design.png
