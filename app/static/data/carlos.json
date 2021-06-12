@@ -2,6 +2,7 @@
     "first_name": "Carlos",
     "last_name": "Ricoveri",
     "description": "I'm a Computer Engineering student and MLH Production Engineering Fellow living in Orlando. I like programming with Java and Python with experience in microcontroller programming and app development. I have a passion for technology and creating solutions. In my free time a like to play soccer, watch Star Wars and cheer for FC Barcelona.",
+    "img": "Carlos.svg",
     "education": [
         {
             "title": "University of Central Florida",
