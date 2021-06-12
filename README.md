@@ -47,6 +47,7 @@
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#devpost">Devpost</a></li>
     <li><a href="#linkedin">LinkedIn</a></li>
+    <li><a href="#license">LinkedIn</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -150,6 +151,9 @@ python3 app.py
 [Carlos Ricoveri](https://www.linkedin.com/in/carlosricoveri/)
 
 [Saul Montes De Oca](https://www.linkedin.com/in/saulmontesdeoca/)
+
+## License
+[LICENSE](https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/LICENSE)
 
 ## Acknowledgements
 [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
