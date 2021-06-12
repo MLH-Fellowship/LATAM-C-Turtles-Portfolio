@@ -1,132 +1,299 @@
 {% extends 'base.html' %}
 
 {% block style %}
-<link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-<!-- Boostrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+
 {% endblock %}
 
 {% block head %}
-<title>Team 1 Portfolio</title>
+<title>C Turtles Homepage</title>
 {% endblock %}
 
 {% block body %}
+
 <div class="wave wave1"></div>
 <div class="wave wave2"></div>
 <div class="wave wave3"></div>
 <div class="wave wave4"></div>
-<div class="rectangle1">
-    <div class="github-logo">
-        <a href="https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio">
-            <img src="/static/img/github.svg" alt="Github Logo">
-        </a>
-    </div>
-    <div class="title-text">
-        <div class="text3">Team 1 Portfolio</div>
-    </div>
-    <div class="sub-text">
-        <div class="text4">Powered by Flask</div>
-    </div>
-    <div class="top-right-text">
-        <div class="text2">About</div>
-    </div>
-    <div class="podmate-text">
-        <div class="text1">Welcome to <del>Pod 3.3.0</del>C Turtles</div>
-    </div>
 
-
-    <header class="jumbotron jumbotron-fluid text-center header d-flex">
-        <div class="container justify-content-center align-self-center">
-            <!-- Just an image -->
-            <nav class="navbar navbar-light bg-light navbar-fixed-top">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-                </a>
-            </nav>
-            <div class="turtle-layer">
-                <img src="/static/img/Turtles.svg">
-            </div>
-            <div class="turtle-layer2">
-                <img src="/static/img/Turtles2.svg">
-            </div>
-            <div class="team-text">
-                <img src="/static/img/MeetTheTeam.svg" alt="Meet the Team">
-            </div>
-            <div class="carlos-wrap">
-                <a href="https://www.linkedin.com/in/carlosricoveri/">
-                    <img class="carlos" src="/static/img/Carlos.svg" alt="Carlos">
-                </a>
-                <p class="carlos-text">Carlos</p>
-            </div>
-            <div class="jorge-wrap">
-                <a href="https://www.linkedin.com/in/jorgesanchezdiaz/">
-                    <img class="jorge" src="/static/img/Jorge.svg" alt="Jorge">
-                </a>
-                <p class="jorge-text">Jorge</p>
-            </div>
-            <div class="saul-wrap">
-                <a href="https://www.linkedin.com/in/saulmontesdeoca/">
-                    <img class="saul" src="/static/img/Saul.svg" alt="Saul">
-                </a>
-                <p class="saul-text">Saul</p>
-            </div>
-            <div class="jc-wrap">
-                <img class="jc" src="/static/img/JC.svg" alt="Juan Carlos">
-                <p class="jc-text">JC</p>
-            </div>
-            <div class="gibson-wrap">
-                <img class="gibson" src="/static/img/Gibson.svg" alt="Gibson">
-                <p class="gibson-text">Gibson</p>
-            </div>
-            <div class="yenyu-wrap">
-                <img class="yenyu" src="/static/img/Yenyu.svg" alt="Yenyu">
-                <p class="yenyu-text">Yenyu</p>
-            </div>
-            <div class="athena-wrap">
-                <img class="athena" src="/static/img/Athena.svg" alt="Athena">
-                <p class="athena-text">Athena</p>
-            </div>
-            <div class="chris-wrap">
-                <img class="chris" src="/static/img/Chris.svg" alt="Christopher">
-                <p class="chris-text">Chris</p>
-            </div>
-            <div class="yashika-wrap">
-                <img class="yashika" src="/static/img/Yashika.svg" alt="Yashika">
-                <p class="yashika-text">Yashika</p>
-            </div>
-            <div class="jioh-wrap">
-                <img class="jioh" src="/static/img/Jioh.svg" alt="Ji Oh">
-                <p class="jioh-text">Ji-Oh</p>
-            </div>
-            <div class="nhi-wrap">
-                <img class="nhi" src="/static/img/Nhi.svg" alt="Nhi">
-                <p class="nhi-text">Nhi</p>
-            </div>
-            <div class="shivi-wrap">
-                <img class="shivi" src="/static/img/Shivi.svg" alt="Shivi">
-                <p class="shivi-text">Shivi</p>
-            </div>
-            <div class="patrick-wrap">
-                <img class="patrick" src="/static/img/Patrick.svg" alt="Patrick">
-                <p class="patrick-text">Patrick</p>
-            </div>
-            <div class="valerie-wrap">
-                <img class="valerie" src="/static/img/Valerie.svg" alt="Valerie">
-                <p class="valerie-text">Valerie</p>
-            </div>
-
-
+<header class="text-center">
+    <nav class="navbar navbar-light justify-content-between px-5">
+        <div class="container nav-item 
+        flex-column justify-content-center align-content-center">
+            <h1>C Turtles</h1>
+            <span class="powered">Powered By Flask</span>
         </div>
-    </header>
-</div>
+    </nav>
+
+    <!--Profile cards main container-->
+    <div class="container-fluid justify-content-center d-flex flex-column align-content-center pt-5">
+        <div class="container-fluid">
+            <div class="container d-flex justify-content-center flex-wrap">
+                <!-- Profile card-->
+                <div class="profile-circle m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image" />
+                    <p class="">Saul</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image" />
+                    <p class="">Jorge</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image" />
+                    <p class="">Carlos</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container-fluid pt-4">
+            <div class="container d-flex justify-content-center flex-wrap">
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Saul</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Jorge</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Carlos</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Saul</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Jorge</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Carlos</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Saul</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Jorge</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Carlos</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Saul</p>
+                </div>
+                <!-- Profile card-->
+                <div class="profile-circle-small m-5">
+                    <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg" alt=""
+                        class="profile-image-small" />
+                    <p class="">Jorge</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+
+<main class="container containerMain pt-5" id="counter">
+    <div class="row py-5 first">
+        <div class="col-md-6 text-center">
+            <img src="./static/img/rocket.png" class="imageLeftSlideUp normal" alt="Airport">
+        </div>
+        <div class="col-md-6 text-center my-auto">
+            <div class="title">
+                <h1 class="font-weight-bold" id="commits"></h1>
+                <p class="font-weight-light">Commits</p>
+            </div>
+            <p class="subtitle">Spread across high quality projects that have an impact on the daily lives of people
+                around the world.
+            </p>
+            <!--
+                <button class="btn btn-info">Let's dive in</button>
+            -->
+        </div>
+    </div>
+    <hr class="divider" />
+    <div class="row flex-row-reverse py-5 first">
+        <div class="col-md-6 text-center">
+            <img src="./static/img/office.png" class="image medium imageRightSlideUp" alt="Pull Request">
+        </div>
+        <div class="col-md-6 text-center my-auto">
+            <div class="title">
+                <h1 class="font-weight-bold" id="pr"></h1>
+                <p class="font-weight-light">Pull Request</p>
+            </div>
+            <p class="subtitle">Teamwork and communication are the basics in our day to day work, feedback is
+                everything.
+            </p>
+            <!--
+                <button class="btn btn-info">Let's dive in</button>
+            -->
+        </div>
+    </div>
+    <hr class="divider" />
+    <div class="row py-5 first">
+        <div class="col-md-6 text-center">
+            <img src="./static/img/world.png" class="imageLeftSlideUp normal" alt="World">
+        </div>
+        <div class="col-md-6 text-center my-auto">
+            <div class="title">
+                <h1 class="font-weight-bold" id="countries"></h1>
+                <p class="font-weight-light">Nationalities</p>
+            </div>
+            <p class="subtitle">
+                Making contributions regardless of language barriers or countries, what matters is
+                collaboration.
+            </p>
+            <!--
+                <button class="btn btn-info">Let's dive in</button>
+            -->
+        </div>
+    </div>
+    <hr class="divider" />
+    <div class="row flex-row-reverse py-5 first">
+        <div class="col-md-6 text-center">
+            <img src="./static/img/airport.png" class="image medium imageRightSlideUp normal" alt="Codelines">
+        </div>
+        <div class="col-md-6 text-center my-auto">
+            <div class="title">
+                <h1 class="font-weight-bold" id="codelines"></h1>
+                <p class="font-weight-light">Lines of Code</p>
+            </div>
+            <p class="subtitle">
+                Software quality is not measured in lines of code but a little flex isn't a bad thing.
+            </p>
+            <!--
+                <button class="btn btn-info">Let's dive in</button>
+            -->
+        </div>
+    </div>
+
+
+
+</main>
+
+
+<footer class="bg-dark text-center text-white footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-linkedin-in"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://github.com/MLH-Fellowship">MLH Fellowship</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
 
 <!-- Bootsrap dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
+<script src="../static/js/main.js"></script>
+
+<script>
+
+
+
+    var slideLeft = {
+        distance: '250%',
+        origin: 'left',
+        opacity: '75%',
+        //afterReveal: startCommitCounter
+    }
+    var slideRight = {
+        distance: '250%',
+        origin: 'right',
+        opacity: '75%',
+        //beforeReveal: startCommitCounter
+    }
+
+
+
+    ScrollReveal().reveal('.imageLeftSlideUp', slideLeft);
+    ScrollReveal().reveal('.imageRightSlideUp', slideRight);
+
+
+    ScrollReveal().reveal('.title', { delay: 600 });
+    ScrollReveal().reveal('.subtitle', { delay: 800 });
+    ScrollReveal().reveal('.divider', { delay: 1000 });
+    ScrollReveal().reveal('.footer', { delay: 700 })
+
+    ScrollReveal().reveal('.main-title', { delay: 500 });
+    ScrollReveal().reveal('.main-subtitle', { delay: 1000 });
+
+    ScrollReveal().reveal('.footer', { delay: 1000 });
+</script>
 
 {% endblock %}
