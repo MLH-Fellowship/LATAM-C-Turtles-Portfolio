@@ -47,7 +47,7 @@
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#devpost">Devpost</a></li>
     <li><a href="#linkedin">LinkedIn</a></li>
-    <li><a href="#license">LinkedIn</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
