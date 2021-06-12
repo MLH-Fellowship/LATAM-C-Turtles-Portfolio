@@ -1,0 +1,60 @@
+{
+    "first_name": "Carlos",
+    "last_name": "Ricoveri",
+    "description": "I'm a Computer Engineering student and MLH Production Engineering Fellow living in Orlando. I like programming with Java and Python with experience in microcontroller programming and app development. I have a passion for technology and creating solutions. In my free time a like to play soccer, watch Star Wars and cheer for FC Barcelona.",
+    "img": "Carlos.svg",
+    "education": [
+        {
+            "title": "University of Central Florida",
+            "date": "Aug 2016 - June 2021",
+            "degree": "B.S. Computer Engineering",
+            "img": "ucf.png"
+        }
+    ],
+    "experience": [
+        {
+            "title": "MLH Production Engineering Fellowship",
+            "date": "Summer '21",
+            "decription": "MLH Production Engineering track focuses on learning about DevOps and to contribute to projects that will demand to apply our skills learnt from the fellowship continously.",
+            "img": "mlh_fellowship.jpg"
+        }
+    ],
+    "projets": [
+        {
+            "title": "TAG Bot",
+            "date": "Fall '20 - Spring '21",
+            "decription": "The Therapy and Game Bot is an autonomous roomba robot that is meant to encourage physical therapy while remaining at home. The bot makes use of computer vision processes to establish an effective play area and to detect, track, and avoid incoming objects. The bot features multiple game modes and Bluetooth connection to an external computer. An Android app was also developed to change the robot from therapy mode to one of 4 different game modes. ",
+            "github": "https://tagbot31.weebly.com/",
+            "img": ""
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Deans List",
+            "date": "Fall '16 - Spring '21",
+            "description": "Awarded over 5 times for achieving a high semester GPA."
+        },
+        {
+            "title": "Top 1% of High School Class",
+            "date": "Jun '16",
+            "description": "Graduated as number 7 of more than 700 students in my high school graduating class."
+        }
+    ],
+    "extracurricular": [
+        {
+            "title": "IEEE UCF",
+            "date": "Fall '20 - Spring '21",
+            "description": "Organization dedicated to electrical engineers. Was the professional development chair where I created and published a couple of resume and linkedin profile building tutorials. I also planned and hosted a diversity panel with industry professionals for our members with an attendance of over 20 members."
+        },
+        {
+            "title": "Theta Tau Professional Engineering Fraternity",
+            "date": "Fall '19 - Ongoing",
+            "description": "Coed professional engineering fraternity focused in promoting and growing professionalism, network, and skills. Engaged and promoted professionalism growth among engineering students of different backgrounds."
+        },
+        {
+            "title": "Society of Hispanic Engineers (SHPE) UCF",
+            "date": "Fall '19 - Spring '21",
+            "description": "Hispanic professional organization dedicated in promoting professionalism among its members. Participated in numerous beach cleanups where several pounds of trash were recovered."
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+  "first_name": "Jorge",
+  "last_name": "Sanchez",
+  "img": "dev_george.png",
+  "description": "Current MLH Production Engineering Fellow, Fullstack developer, but above all, developer for life.",
+  "education": [
+    {
+      "title": "Tecnológico de Monterrey GDA",
+      "date": "Ago 2018-Dec 2022",
+      "degree": "B.S. Computer Science",
+      "img": "tec.png"
+    },
+    {
+      "title": "MLH Explorer Fellowship",
+      "date": "Summer '21",
+      "description": "12 weeks surrounded by extremely talented peers making contributions in Production Engineering, also known as Site Reliability Engineering & DevOps. 🐋",
+      "img": "mlh_fellowship.jpg"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Fullstack Developer with Backend Emphasis",
+      "date": "Summer '20",
+      "description": "Developed a platform that integrates AI/ML in SMEs in order to virtualize the economy through a marketplace as well as a dashboard where the SME can organize its inventory, human resources, shipments, income and expenses, all with the help of AI/ML. Using technologies such as Angular, Ionic, Typescript, Cordova and SQL",
+      "img": "jiit.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "365 Days of Code",
+      "date": "Aug '18",
+      "description": "Personal challenge which consisted of learning something new about programming every day, no matter the subject, just learning. I learned about multiple topics such as Machine Learning,cybersecurity, Competitive Programming, Web, Game and Mobile development.",
+      "github": "https://github.com/S4ND1X/365-Days-Of-Code",
+      "img": "365days.jpg"
+    },
+    {
+      "title": "Club Algoritmia GDA Fullstack Project",
+      "date": "Fall '20",
+      "description": "Club de Algoritmia GDA is an organization that I founded with other friends in order to help students get an Internships, build portafolios and help them to become proactive.",
+      "github": "https://github.com/S4ND1X/AlgorithmicClubGDAFullstack",
+      "img": "clubgda.png"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "2nd Place at HackMX Hackaton, Konfio",
+      "date": "Apr '19",
+      "description": "Won second place among 15 teams by developing a platform to request a loan using AWS Lambdas, Python, React Native & ChartJS."
+    },
+    {
+      "title": "2nd Place at Talent Land Hackaton, Bosch",
+      "date": "Apr '29",
+      "description": "Won second place among 40 teams by developing a chatbot implemented on Whatsapp & Messenger to automate sales. We used Python, Heroku, Twilio and SpaCy"
+    }
+  ],
+  "extracurricular": [
+    {
+      "title": "ICPC Club Founder - Tecnológico de Monterrey",
+      "date": "Aug 2018 - Ongoing",
+      "description": "Founder of the ICPC Tec GDA club, where we prepare several students every year for competitive programming competition."
+    }
+  ]
+}

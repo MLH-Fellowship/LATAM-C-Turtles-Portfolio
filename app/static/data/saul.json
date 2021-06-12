@@ -1,0 +1,69 @@
+{
+    "first_name": "Saul",
+    "last_name": "Montes De Oca",
+    "img": "profile-saul.png",
+    "description": "I'm a Computer Science student and MLH Production Engineering Fellow living in Mexico City. I like frontend development with React and backend development with Mongo and flask. I have a passion for technology and music. In my free time a like to play piano, watch movies and go to the park with my dogs. Feel free to take a look around and contact me if you'd like to have a chat.",
+    "education": [
+        {
+            "title": "Tecnológico de Monterrey CSF",
+            "date": "Ago 2017-Jun 2022",
+            "degree": "B.S. Computer Science",
+            "img": "tec.png"
+        },
+        {
+            "title": "MLH Explorer Fellowship",
+            "date": "Fall '20",
+            "description": "12 week internship where every 2 weeks my Pod and I will sprinted to develop a new real-world project which challenged us to experiment with new technologies.",
+            "img": "mlh_fellowship.jpg"
+        }
+    ],
+    "experience": [
+        {
+            "title": "MLH Production Engineering Fellowship",
+            "date": "Summer '21",
+            "description": "MLH Production Engineering track focuses on learning about DevOps and to contribute to projects that will demand to apply our skills learnt from the fellowship continously.",
+            "img": "mlh_fellowship.jpg"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Bookworms",
+            "date": "Spring '21",
+            "description": "Bookworms is a book social network where bookwroms(users) can add books to their bookshelves(recommendations, currently reading, read, want to read) and see the bookshelves of the bookworms their following. Built using React, Flask, MongoDB, Redis, and used docker-compose to mount it in containers with loadbalancers.",
+            "github": "https://github.com/tec-csf/tc3041-pf-primavera-2021-team7",
+            "img": "bookworms.jpg"
+        },
+        {
+            "title": "Study buddies",
+            "date": "Fall '20",
+            "description": "A tinder-like app that connect studybuddies to find classmates to study with. School team project built using React Native and Firebase.",
+            "github": "https://github.com/saulmontesdeoca/studybuddies",
+            "img": "studybuddies.png"
+        },
+        {
+            "title": "Face Recognition DBMS",
+            "date": "Spring '20",
+            "description": "Class project module part of Face Recognition System, built using OpenCv and MongoCxx driver for data persistence.",
+            "github": "https://github.com/saulmontesdeoca/faceRecognitionDB"
+        }
+    ],
+    "achievements": [
+        {
+            "title": "HackMX Hackathon 2nd place award",
+            "date": "Apr '21",
+            "description": "Built a credit card fraud detection system along with two engineer friends. I built the machine learning model using scikit-learn. Achieved 0.93 of test accuracy."
+        },
+        {
+            "title": "Guitar solo contest winner",
+            "date": "Apr '21",
+            "description": "Competed against all the guitar players of my university and won an electric guitar."
+        }
+    ],
+    "extracurricular": [
+        {
+            "title": "Music Company - Tecnológico de Monterrey",
+            "date": "Jan 2018 - Ongoing",
+            "description": "Lead guitar player of the music company of my campus."
+        }
+    ]
+}
