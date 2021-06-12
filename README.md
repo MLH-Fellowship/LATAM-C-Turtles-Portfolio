@@ -184,4 +184,5 @@ This team is composed of 3 members. Below are their Github and LinkedIn accounts
 [issues-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues
 [issues2-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/issues2.svg
 [issues2-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues
-[product-screenshot]: images/figma-design.png
+[product-screenshot]: images/landingpage.png
+
