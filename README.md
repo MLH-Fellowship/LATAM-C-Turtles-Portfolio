@@ -60,8 +60,7 @@
 Welcome to pod 3.3.0 team 1's portfolio webpage! As you may or may not know, our pod's nickname is the C Turtles. We wanted to incorporate this theme and represent it on our landing page with a unique underwater design. The portfolio overall runs from a Flask server written in Python and features the use of Bootstrap for our styling where ✨aesthetic✨ animations and transitions have been applied! 
 
 Upon establishing the Flask server and accessing our page, you will be welcomed by our __Landing Page__ designed by 
-[Carlos Ricoveri](https://github.com/carlosricov) and [Jorge Sanchez](https://github.com/S4ND1X). If interested in learning more about our pod, feel free to explore the __About__ section, also designed by Jorge. For the time being, only the profiles of the members of team 1 will be accessible. To see them, click on the corresponding image within the landing page. The profile section was designed by [Saul Montes De Oca](https://github.com/saulmontesdeoca). A primitive design created on Figma is shown here _(please note this is a WIP and the design is not yet finalized)_:
-
+[Carlos Ricoveri](https://github.com/carlosricov) and [Jorge Sanchez](https://github.com/S4ND1X). If interested in learning more about our pod, feel free to explore the __About__ section, also designed by Jorge. For the time being, only the profiles of the members of team 1 will be accessible. To see them, click on the corresponding image within the landing page. The profile section was designed by [Saul Montes De Oca](https://github.com/saulmontesdeoca). A screenshot of the welcome landing page can be seen here:
 ![Figma Landing Page Revised Design][product-screenshot]
 
 ### Built With
