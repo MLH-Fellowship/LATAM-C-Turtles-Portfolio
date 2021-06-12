@@ -66,6 +66,7 @@ Upon establishing the Flask server and accessing our page, you will be welcomed 
 * [Python](https://www.python.org/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [Figma](https://www.figma.com/)
+* [JavaScript](https://www.javascript.com/)
 
 ## Getting Started
 
