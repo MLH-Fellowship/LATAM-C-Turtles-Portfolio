@@ -134,7 +134,7 @@ To run the app you have to follow the next commandlines:
 git clone git@github.com:MLH-Fellowship/LATAM-C-Turtles-Portfolio.git
 cd LATAM-C-Turtles-Portfolio
 pip3 install -r requirements.txt
-python3 app.py
+flask run
 ```
 
 ## Contributors
