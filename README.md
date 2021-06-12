@@ -45,8 +45,9 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#github">Github</a></li>
+    <li><a href="#linkedin">LinkedIn</a></li>  
     <li><a href="#devpost">Devpost</a></li>
-    <li><a href="#linkedin">LinkedIn</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -136,21 +137,24 @@ python3 app.py
 ```
 
 ## Contributors
+This team is composed of 3 members. Below are their Github and LinkedIn accounts.
+
+### Github
 [Jorge Sanchez](https://github.com/S4ND1X)
 
 [Carlos Ricoveri](https://github.com/carlosricov)
 
 [Saul Montes De Oca](https://github.com/saulmontesdeoca)
 
-## Devpost
-[Check it out]()
-
-## LinkedIn
+### LinkedIn
 [Jorge Sanchez](https://www.linkedin.com/in/jorgesanchezdiaz/)
 
 [Carlos Ricoveri](https://www.linkedin.com/in/carlosricoveri/)
 
 [Saul Montes De Oca](https://www.linkedin.com/in/saulmontesdeoca/)
+
+## Devpost
+[Check it out]()
 
 ## License
 [LICENSE](https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/LICENSE)
