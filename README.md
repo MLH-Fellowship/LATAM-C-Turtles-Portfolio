@@ -1,6 +1,4 @@
 [![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![Issues2][issues2-shield]][issues2-url]
 
           
 <!-- PROJECT LOGO -->
@@ -18,7 +16,7 @@
     <a href="https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio"><strong>Explore the repo »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=0uzl_n4a7Hw&ab_channel=CarlosRicoveri">View Demo</a>
     ·
     <a href="https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues">Report Bug</a>
     ·
@@ -177,11 +175,7 @@ This team is composed of 3 members. Below are their Github and LinkedIn accounts
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/Contributors.svg
+[contributors-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/blob/main/images/Contributors.svg
 [contributors-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/graphs/contributors
-[issues-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/issues.svg
-[issues-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues
-[issues2-shield]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/images/issues2.svg
-[issues2-url]: https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/issues
 [product-screenshot]: images/landingpage.png
 
