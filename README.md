@@ -155,7 +155,7 @@ This team is composed of 3 members. Below are their Github and LinkedIn accounts
 [Saul Montes De Oca](https://www.linkedin.com/in/saulmontesdeoca/)
 
 ## Devpost
-[Check it out]()
+[Check it out](https://devpost.com/software/latam-c-turtles-portfolio)
 
 ## License
 [LICENSE](https://github.com/MLH-Fellowship/LATAM-C-Turtles-Portfolio/LICENSE)
