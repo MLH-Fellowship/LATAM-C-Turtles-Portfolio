@@ -44,6 +44,22 @@ body {
     font-size: 20px;
 }
 
+.github-logo {
+    position: absolute;
+    width: 83px;
+    height: 75px;
+    left: 144px;
+    right: 1213px;
+    top: 56px;
+    bottom: 893px;
+
+    transition: transform .2s;
+}
+
+.github-logo:hover {
+    transform: scale(1.2);
+}
+
 .greetings-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
