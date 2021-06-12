@@ -45,8 +45,10 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributors">Contributors</a></li>
-    <li><a href="#github">Github</a></li>
-    <li><a href="#linkedin">LinkedIn</a></li>  
+     <ul>   
+         <li><a href="#github">Github</a></li>
+         <li><a href="#linkedin">LinkedIn</a></li> 
+     </ul>
     <li><a href="#devpost">Devpost</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
