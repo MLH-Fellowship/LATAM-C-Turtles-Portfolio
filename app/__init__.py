@@ -1,5 +1,6 @@
-from flask import Flask, render_template, url_for, json
+from flask import Flask, render_template, url_for, json, Response
 import os
+
 
 app = Flask(__name__)
 
@@ -16,3 +17,8 @@ def profile(name):
     json_url = os.path.join(SITE_ROOT, SITE_FOLDER, f"{name}.json")
     data = json.load(open(json_url))
     return render_template('profile.html', data=data)
+
+# AWS Health endpoint
+@app.route('/health', methods=['GET'])
+def health():
+    return Response(status=200)
