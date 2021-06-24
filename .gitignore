@@ -1,2 +1,6 @@
 # this is the name of the environment
-mlh-portfolio
+./mlh-portfolio
+./env
+
+#DB Name
+./flask.sqlite

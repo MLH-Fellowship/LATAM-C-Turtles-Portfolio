@@ -1,8 +1,12 @@
-from flask import Flask, render_template, url_for, json, Response
+from flask import Flask, render_template, url_for, json, Response, request
 import os
-
+from . import db
 
 app = Flask(__name__)
+
+app.config['DATABASE'] = os.path.join(os.getcwd(), 'flask.sqlite')
+db.init_app(app)
+
 
 # code by kOssi (https://stackoverflow.com/questions/21133976/flask-load-local-json)
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
